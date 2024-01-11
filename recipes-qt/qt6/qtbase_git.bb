@@ -23,6 +23,8 @@ SRC_URI += "\
     file://0002-qlibraryinfo-allow-to-set-qt.conf-from-the-outside-u.patch \
     file://0004-Fix-qt.toolchain.cmake-for-SDK-use.patch \
     file://0005-testlib-don-t-track-the-build-or-source-directories.patch \
+    file://0001-HPack-fix-a-Yoda-Condition.patch \
+    file://CVE-2023-51714.patch \
 "
 
 DEPENDS += "\
